@@ -1,5 +1,5 @@
-import React from 'react'
-import {Mail, Phone, MapPin, Linkedin, Twitter} from "lucide-react"
+import React from "react";
+import {Mail, Phone, MapPin, Linkedin, Twitter, Calculator} from "lucide-react";
 function Footer() {
   return (
  <footer className="bg-gray-900 text-white">

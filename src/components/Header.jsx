@@ -3,14 +3,13 @@ import {Menu, X} from  "lucide-react";
 // This is a simple header component that displays a title and a menu icon.
 import { Link, useLocation } from 'react-router-dom';
 
-
 function Header() {
     const location = useLocation();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const isActive = (path) => path === location.pathname;
 
-      const navItems = [
+    const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
     { path: '/services', label: 'Services' },
@@ -24,9 +23,6 @@ function Header() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center group-hover:scale-105 transition-transform duration-200">
-           
-            </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold text-gray-900">Mayowa Ojo</span>
             </div>
@@ -47,12 +43,7 @@ function Header() {
                 {item.label}
               </Link>
             ))}
-            <Link
-              to="/contact"
-              className="ml-4 px-6 py-2.5 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200"
-            >
-              Get Started
-            </Link>
+
           </nav>
 
           {/* Mobile menu button */}
@@ -80,13 +71,6 @@ function Header() {
                   {item.label}
                 </Link>
               ))}
-              <Link
-                to="/contact"
-                onClick={() => setIsMenuOpen(false)}
-                className="mx-4 mt-2 px-6 py-3 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors duration-200 text-center"
-              >
-                Get Started
-              </Link>
             </nav>
           </div>
         )}
