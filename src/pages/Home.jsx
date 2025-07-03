@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 import { Link } from 'react-router-dom';
 import { ArrowRight, CheckCircle, Users, Award, Clock, TrendingUp, Shield, Star } from 'lucide-react';
 
@@ -12,7 +12,8 @@ function Home() {
               <Award className="h-4 w-4 mr-2" />
               Certified Accountant • 10+ Years Experience
             </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight"> Hi, i'm 
+            <br/>
               Mayowa Ojo
               {/* <span className="block text-3xl md:text-4xl font-medium text-gray-600 mt-4">
                 Your Trusted Financial Partner

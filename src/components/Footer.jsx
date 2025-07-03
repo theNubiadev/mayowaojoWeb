@@ -1,5 +1,5 @@
 import React from "react";
-import {Mail, Phone, MapPin, Linkedin, Twitter, Calculator} from "lucide-react";
+import {Mail, Phone, MapPin, Linkedin, Twitter} from "lucide-react";
 function Footer() {
   return (
  <footer className="bg-gray-900 text-white">
@@ -8,9 +8,6 @@ function Footer() {
           {/* Brand */}
           <div className="md:col-span-2 space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
-                <Calculator className="h-5 w-5 text-white" />
-              </div>
               <div className="flex flex-col">
                 <span className="text-xl font-bold">Mayowa Ojo</span>
                 {/* <span className="text-sm text-gray-400">Certified Public Accountant</span> */}
