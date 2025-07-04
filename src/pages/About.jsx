@@ -1,6 +1,9 @@
 import React from 'react'
 import { Award, Calendar, MapPin, GraduationCap, CheckCircle} from 'lucide-react';
-import Hero from "../assets/Hero.jpg"
+import Hero from "../assets/bghero.jpg"
+
+// This is the About page for Mayowa Ojo, a Certified Public Accountant
+// It includes a brief introduction, professional background, and credentials
 function About() {
   return (
     <div className="min-h-screen pt-20">
