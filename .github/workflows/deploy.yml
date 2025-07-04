@@ -9,15 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Install and Build
         run: |
           npm install
           npm run build
 
       - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.yourhost.com
+          server: mayowaojo.com  # or your actual IP or domain
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./build
