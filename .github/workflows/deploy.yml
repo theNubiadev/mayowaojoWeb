@@ -21,5 +21,5 @@ jobs:
           server: mayowaojo.com  # or your actual IP or domain
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./build
+          local-dir: ./build/
           server-dir: /public_html/
