@@ -16,7 +16,7 @@ function Home() {
             <br/>
               Mayowa Ojo
               {/* <span className="block text-3xl md:text-4xl font-medium text-gray-600 mt-4">
-                Your Trusted Financial Partner
+                Your Trusted Financial Partnern
               </span> */}
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
@@ -26,7 +26,7 @@ function Home() {
             </div>
         </section>
 
-        
+
     </div>
   )
 }
