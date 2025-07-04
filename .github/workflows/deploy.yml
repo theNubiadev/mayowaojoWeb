@@ -18,7 +18,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.mayowaojo.com  # or your actual IP or domain
+          server: 102.209.117.25 #ftp.mayowaojo.com  # or your actual IP or domain
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
