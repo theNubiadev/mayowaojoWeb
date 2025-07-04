@@ -1,6 +1,7 @@
 import React from 'react'
 import { Award, Calendar, MapPin, GraduationCap, CheckCircle} from 'lucide-react';
-import Hero from "../assets/bghero.jpg"
+import Hero from '../assets/bghero.png'; // Adjust the path as necessary
+
 
 // This is the About page for Mayowa Ojo, a Certified Public Accountant
 // It includes a brief introduction, professional background, and credentials
@@ -34,7 +35,7 @@ function About() {
             </div>
             <div className="flex justify-center">
               <div className="w-80 h-80 bg-gradient-to-br from-blue-100 to-gray-100 rounded-3xl flex items-center justify-center shadow-2xl">
-                <img src={Hero} className="object-cover " />
+                <img src={Hero} className="object-cover mb-14" />
               </div>
             </div>
           </div>
