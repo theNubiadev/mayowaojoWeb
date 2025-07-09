@@ -1,7 +1,12 @@
-import React from 'react'
-import { Award, Calendar, MapPin, GraduationCap, CheckCircle} from 'lucide-react';
-import Hero from '../assets/bghero.png'; // Adjust the path as necessary
-
+import React from "react";
+import {
+  Award,
+  Calendar,
+  MapPin,
+  GraduationCap,
+  CheckCircle,
+} from "lucide-react";
+import Hero from "../assets/bghero.png"; // Adjust the path as necessary
 
 // This is the About page for Mayowa Ojo, a Certified Public Accountant
 // It includes a brief introduction, professional background, and credentials
@@ -14,18 +19,21 @@ function About() {
             <div>
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
                 <Award className="h-4 w-4 mr-2" />
-                Certified Public Accountant
+                {/* Certified Public Accountant */}
+                Accountant | Entrepreneur | Political Advocate
               </div>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                 About Mayowa Ojo
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
-                Your trusted financial partner with over a decade of experience in accounting and financial management, dedicated to helping you achieve financial success.
-              </p>
+                dynamic finance professional, entrepreneur, and
+              public affairs advocate
+              </p> 
+
               <div className="flex items-center space-x-6 text-gray-600">
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 mr-2" />
-                  <span>Lagos, Nigeria</span>
+                  <span>United Kingdom</span>
                 </div>
                 <div className="flex items-center">
                   <Calendar className="h-5 w-5 mr-2" />
@@ -47,47 +55,119 @@ function About() {
         <div className="max-w-4xl mx-auto">
           <div className="prose prose-xl max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Mayowa Ojo is a Certified Public Accountant (CPA) with over 10 years of experience in the field.
-              He specializes in tax filing, bookkeeping, payroll, and financial strategy, helping both individuals
-              and businesses navigate complex financial landscapes with confidence and precision.
+              Mayowa Ojo is a dynamic finance professional, entrepreneur, and
+              public affairs advocate with deep roots in Nigeria and a growing
+              influence on the global stage. Born in Ibadan, Oyo State, Nigeria,
+              he built a solid academic foundation—earning Diplomas in
+              Accountancy from The Polytechnic Ibadan and a bachelor’s degree in
+              accounting from Lagos State University.
             </p>
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Based in Lagos, Nigeria, Mayowa has built a reputation for integrity, precision, and personalized service.
-              His commitment to staying current with the latest accounting standards and tax regulations ensures that
-              his clients receive the most accurate and beneficial financial guidance available.
-            </p>
-            <p className="text-xl text-gray-700 leading-relaxed">
-              Mayowa believes that sound financial management is the foundation of personal and business success.
-              He works closely with each client to understand their unique needs and develop customized solutions
-              that promote long-term financial health and sustainable growth.
+              A member of leading professional bodies in both Nigeria and the
+              United Kingdom, Mayowa is committed to the highest standards of
+              financial expertise and lifelong learning.
             </p>
           </div>
         </div>
       </section>
 
+      {/* Bio Section */}
+      <section className="py-24 px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Entrepreneurship & Leadership
+            </h2>
+          </div>
+          <div className="prose prose-xl max-w-none">
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              Mayowa launched his career in Lagos, Nigeria, at The Kitchen, a
+              premier hospitality chain, where he honed his core accounting
+              skills. He then advanced to roles at British American Tobacco
+              Nigeria (BATN), Landmark, and UPDC PLC, gaining broad experience
+              in finance, compliance, and strategic planning.
+            </p>
+            {/*  */}
+            <p className="text-xl text-gray-700 leading-relaxed">
+              In pursuit of new challenges, Mayowa relocated to the United
+              Kingdom, where he now serves as Finance Controller for HEL
+              Limited, a laboratory-equipment manufacturer. There, he oversees
+              the preparation and analysis of financial reports for the EMEA and
+              US regions, ensuring accuracy, transparency, and alignment with
+              corporate objectives.
+            </p>
+          </div>
+        </div>
+      </section>
 
-       {/* Credentials */}
+      {/* Political Advocacy Section */}
+      <section className="py-24 px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Political Advocacy
+            </h2>
+          </div>
+          <div className="prose prose-xl max-w-none">
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              As a proud member of the UK Labour Party, Mayowa contested the
+              Briars Ward seat in Hatfield in January 2025, channelling his
+              passion for equity and accountability into grassroots campaigning.
+            </p>
+            <p className="text-xl text-gray-700 leading-relaxed mb-8">
+              In February 2025, he was honoured with an invitation to tour the
+              House of Parliament, enriching his understanding of UK
+              parliamentary processes and policymaking.
+            </p>
+            <p className="text-xl text-gray-700 leading-relaxed">
+              An active contributor to Labour at local and national levels,
+              Mayowa bridges diaspora perspectives with UK political discourse,
+              championing policies that foster economic empowerment, youth
+              development, and transparent governance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Credentials */}
       <section className="py-24 px-6 lg:px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Credentials & Certifications</h2>
-            <p className="text-xl text-gray-600">Professional qualifications and continuous education</p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Professional Journey
+            </h2>
           </div>
-          
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Credentials & Certifications
+            </h2>
+            <p className="text-xl text-gray-600">
+              Professional qualifications and continuous education
+            </p>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
               <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center mb-6">
                 <GraduationCap className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Education</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Education
+              </h3>
               <div className="space-y-3">
                 <div>
-                  <p className="font-semibold text-gray-900">Bachelor of Science in Accounting</p>
-                  <p className="text-gray-600">University of Lagos</p>
+                  <p className="font-semibold text-gray-900">
+                    Bachelor in Accounting
+                  </p>
+                  <p className="text-gray-600">Lagos State University </p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">Advanced Taxation Certificate</p>
-                  <p className="text-gray-600">Chartered Institute of Taxation of Nigeria</p>
+                  <p className="font-semibold text-gray-900">
+                      Diploma in Accountancy 
+                  </p>
+                  <p className="text-gray-600">
+                    The Polytechnic Ibadan
+                  </p>
                 </div>
               </div>
             </div>
@@ -96,19 +176,27 @@ function About() {
               <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center mb-6">
                 <Award className="h-6 w-6 text-green-600" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Professional Memberships</h3>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                Professional Memberships
+              </h3>
               <div className="space-y-3">
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">Institute of Chartered Accountants of Nigeria (ICAN)</span>
+                  <span className="text-gray-700">
+                    Institute of Chartered Accountants of Nigeria (ICAN)
+                  </span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">Association of National Accountants of Nigeria (ANAN)</span>
+                  <span className="text-gray-700">
+                    Association of National Accountants of Nigeria (ANAN)
+                  </span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">Chartered Institute of Taxation of Nigeria (CITN)</span>
+                  <span className="text-gray-700">
+                    Chartered Institute of Taxation of Nigeria (CITN)
+                  </span>
                 </div>
               </div>
             </div>
@@ -116,7 +204,7 @@ function About() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

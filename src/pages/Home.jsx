@@ -10,7 +10,8 @@ function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
               <Award className="h-4 w-4 mr-2" />
-              Certified Accountant • 10+ Years Experience
+              {/* Certified Accountant • 10+ Years Experience */}
+              Accountant | Entrepreneur | Political Advocate
             </div>
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight"> Hi, i'm 
             <br/>
@@ -20,7 +21,8 @@ function Home() {
               </span> */}
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 mb-12 leading-relaxed max-w-3xl mx-auto">
-              Helping individuals and businesses in Lagos manage their finances with integrity, precision, and strategic insight for sustainable growth.
+              {/* Helping individuals and businesses in Lagos manage their finances with integrity, precision, and strategic insight for sustainable growth. */}
+              Guided by integrity, leadership, and service, Mayowa Ojo embodies a new generation of professionals who integrate business excellence with social purpose. 
             </p>
             </div>
             </div>
