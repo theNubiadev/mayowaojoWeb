@@ -5,6 +5,7 @@ import {
   MapPin,
   GraduationCap,
   CheckCircle,
+  Airplay
 } from "lucide-react";
 import Hero from "../assets/bghero.png"; // Adjust the path as necessary
 
@@ -15,15 +16,20 @@ function About() {
     <div className="min-h-screen pt-20">
       <section className="py-24 px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
         <div className="max-w-6xl mx-auto">
+          <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
+              <Airplay className="h-4 w-4 mr-2" />
+              More about me
+            </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
             <div>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                 About Mayowa Ojo
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 dynamic finance professional, entrepreneur, and
-              public affairs advocate
-              </p> 
+                public affairs advocate
+              </p>
 
               <div className="flex items-center space-x-6 text-gray-600">
                 <div className="flex items-center">
@@ -156,14 +162,14 @@ function About() {
                   </p>
                   <p className="text-gray-600">Lagos State University </p>
                 </div>
-                {/* <div>
+                <div>
                   <p className="font-semibold text-gray-900">
-                      Diploma in Accountancy 
+                    Diploma in Accountancy
                   </p>
                   <p className="text-gray-600">
                     The Polytechnic Ibadan
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
 

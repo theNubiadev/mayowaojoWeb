@@ -52,7 +52,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                      <p className="text-gray-600">john.doe@email.com</p>
+                      <p className="text-gray-600">info@mayowa.com</p>
                       <p className="text-sm text-gray-500">Response within 24 hours</p>
                     </div>
                   </div>

@@ -96,7 +96,7 @@ function Home() {
                 <h3 className="text-3xl font-bold text-gray-900">Our Vision</h3>
               </div>
               <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Guided by integrity, leadership, and service, John Doe embodies a new generation of professionals who integrate business excellence with social purpose.
+                Guided by integrity, leadership, and service, Mayowa Ojo embodies a new generation of professionals who integrate business excellence with social purpose.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Whether crafting financial strategy, steering entrepreneurial ventures, or engaging in public service, he is dedicated to building a more inclusive, prosperous, and accountable world.
