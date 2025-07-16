@@ -1,6 +1,9 @@
 import React, {useState} from 'react'
 import { Camera, Award, Users, Building, BookOpen, TrendingUp, X, ChevronLeft, ChevronRight } from 'lucide-react';
-
+import CoWorkerImage from '../assets/coworkers1.jpg';
+import Headshot from "../assets/headshot.jpg";
+import Campaign1 from "../assets/campaign1.jpg";
+import Campaign2 from "../assets/campaign2.jpg";
 function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -8,33 +11,33 @@ function Gallery() {
     {
       id: 1,
       title: "Professional Headshot",
-      description: "John Doe, CPA - Your trusted financial partner with over 10 years of experience in accounting and financial management.",
+      description: "Mayowa Ojo, CPA.",
       category: "Professional",
-      image: "https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: Headshot,
       icon: Users
     },
     {
       id: 2,
       title: "Office Environment",
-      description: "Our modern office space in Lagos, designed to provide a comfortable and professional environment for client consultations.",
+      description: "With coworkers at Datal.",
       category: "Office",
-      image: "https://images.pexels.com/photos/7688336/pexels-photo-7688336.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: CoWorkerImage,
       icon: Building
     },
     {
       id: 3,
-      title: "Client Consultation",
+      title: "During Campaign",
       description: "Providing personalized financial advice and strategic planning to help clients achieve their financial goals.",
       category: "Services",
-      image: "https://images.pexels.com/photos/7688460/pexels-photo-7688460.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: Campaign1,
       icon: TrendingUp
     },
     {
       id: 4,
-      title: "Tax Preparation Session",
-      description: "Working diligently on tax preparation and filing, ensuring compliance with Nigerian tax regulations.",
+      title: "Campaign Event",
+      description: "Working diligently  ensuring compliance ",
       category: "Services",
-      image: "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=800",
+      image: Campaign2,
       icon: BookOpen
     },
     {

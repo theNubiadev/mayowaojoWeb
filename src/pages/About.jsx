@@ -17,11 +17,6 @@ function About() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
-                <Award className="h-4 w-4 mr-2" />
-                {/* Certified Public Accountant */}
-                Accountant | Entrepreneur | Political Advocate
-              </div>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
                 About Mayowa Ojo
               </h1>

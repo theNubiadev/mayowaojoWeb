@@ -1,6 +1,6 @@
 import React from 'react'
 import { Award, TrendingUp, Users, CheckCircle, Shield } from 'lucide-react';
-import Hero from "../assets/bghero.png"; // Adjust the path as necessary
+import Hero from "../assets/hero1.jpg"; // Adjust the path as necessary
 function Home() {
   return (
     <div className="min-h-screen">
@@ -40,7 +40,7 @@ function Home() {
                 </div>
 
                 {/* Professional Badge */}
-                <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
+                {/* <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg">
                   <div className="flex items-center space-x-3">
                     <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                     <div>
@@ -48,7 +48,7 @@ function Home() {
                       <p className="text-xs text-gray-600">London, United Kingdom • </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
