@@ -255,10 +255,10 @@ function Gallery() {
                 <p className="text-gray-600 leading-relaxed text-lg">
                   {filteredItems[selectedImage].description}
                 </p>
-                <div className="mt-6 flex items-center text-sm text-gray-500">
+                {/* <div className="mt-6 flex items-center text-sm text-gray-500">
                   <Camera className="h-4 w-4 mr-2" />
                   Professional Photography
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
