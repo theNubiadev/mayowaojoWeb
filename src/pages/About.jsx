@@ -161,14 +161,14 @@ function About() {
                   </p>
                   <p className="text-gray-600">Lagos State University </p>
                 </div>
-                <div>
+                {/* <div>
                   <p className="font-semibold text-gray-900">
                       Diploma in Accountancy 
                   </p>
                   <p className="text-gray-600">
                     The Polytechnic Ibadan
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
 

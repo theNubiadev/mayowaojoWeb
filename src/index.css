@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+body{
+    font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}

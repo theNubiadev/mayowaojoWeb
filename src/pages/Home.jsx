@@ -1,26 +1,28 @@
 import React from 'react'
-import { Award, TrendingUp, Users, CheckCircle, Shield  } from 'lucide-react';
+import { Award, TrendingUp, Users, CheckCircle, Shield } from 'lucide-react';
+import Hero from "../assets/bghero.png"; // Adjust the path as necessary
 function Home() {
   return (
-     <div className="min-h-screen">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            
+
             <div className="text-center lg:text-left">
               <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
                 <Award className="h-4 w-4 mr-2" />
                 Accountant | Entrepreneur | Political Advocate
               </div>
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-                Hi, I'm
                 <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mt-4">
-                  Mayowa Ojo
+                  Hi I'm
                 </span>
+                Mayowa Ojo
+
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-gray-600 mb-12 leading-relaxed max-w-3xl lg:max-w-none">
-                Guided by integrity, leadership, and service, Mayowa Ojo embodies a new generation of professionals who integrate business excellence with social purpose.
+                Guided by integrity, leadership, and service, i embody a new generation of professionals who integrate business excellence with social purpose.
               </p>
             </div>
 
@@ -30,9 +32,10 @@ function Home() {
                 {/* Main Image Container */}
                 <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-3xl overflow-hidden shadow-2xl">
                   <img
-                    src="https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800"
+                    src={Hero}
                     alt="Mayowa Ojo  - Professional Accountant"
                     className="w-full h-full object-cover"
+                    loading='lazy'
                   />
                 </div>
 
@@ -49,9 +52,9 @@ function Home() {
               </div>
             </div>
           </div>
-          </div>
-          </section>
-                {/* Mission and Vision Section */}
+        </div>
+      </section>
+      {/* Mission and Vision Section */}
       <section className="py-24 px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
@@ -142,7 +145,7 @@ function Home() {
           </div>
         </div>
       </section>
-     </div>
+    </div>
   )
 }
 export default Home;
