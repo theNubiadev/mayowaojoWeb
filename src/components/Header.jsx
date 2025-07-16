@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { Menu, X } from  "lucide-react";
 // This is a simple header component that displays a title and a menu icon.
 import { Link, useLocation } from 'react-router-dom';
