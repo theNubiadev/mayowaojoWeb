@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Award, TrendingUp, Users, CheckCircle, Shield  } from 'lucide-react';
 function Home() {
   return (
      <div className="min-h-screen">
