@@ -7,7 +7,7 @@ import {
   CheckCircle,
   Airplay
 } from "lucide-react";
-import Hero from "../assets/bghero.png"; // Adjust the path as necessary
+import Hero from "../assets/hero.jpg"; 
 
 // This is the About page for Mayowa Ojo, a Certified Public Accountant
 // It includes a brief introduction, professional background, and credentials
