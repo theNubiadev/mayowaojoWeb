@@ -17,14 +17,18 @@ function About() {
       <section className="py-24 px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
-              <Airplay className="h-4 w-4 mr-2" />
-              More about me
-            </div>
+            <Airplay className="h-4 w-4 mr-2" />
+            More about me
+          </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            
+
             <div>
-              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-8 leading-tight">
-                About Mayowa Ojo
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+                <span className="block text-2xl md:text-3xl lg:text-4xl font-medium text-gray-600 mt-4">
+                  About Me
+                </span>
+                Mayowa Ojo
+
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed mb-8">
                 dynamic finance professional, entrepreneur, and
