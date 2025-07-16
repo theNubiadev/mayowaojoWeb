@@ -35,6 +35,57 @@ function Contact() {
                     </div>
                 </div>
             </section>
+
+
+            
+      <div className="py-24 px-6 lg:px-8 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-16">
+            {/* Contact Information */}
+            <div className="lg:col-span-1 space-y-8">
+              <div>
+                <h2 className="text-3xl font-bold text-gray-900 mb-8">Contact Information</h2>
+                <div className="space-y-6">
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-blue-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Mail className="h-6 w-6 text-blue-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
+                      <p className="text-gray-600">john.doe@email.com</p>
+                      <p className="text-sm text-gray-500">Response within 24 hours</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Phone className="h-6 w-6 text-green-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
+                      <p className="text-gray-600">+234 (0) 123 456 7890</p>
+                      {/* <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM</p> */}
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                      <MapPin className="h-6 w-6 text-purple-600" />
+                    </div>
+                    <div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">Office Location</h3>
+                      <p className="text-gray-600">London, United Kingdom</p>
+                      {/* <p className="text-sm text-gray-500">By appointment only</p> */}
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+</div>
+</div>
+</div>
+</div>
+
         </div>
     )
 }

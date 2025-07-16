@@ -13,9 +13,9 @@ function Header() {
     const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
-    { path: '/services', label: 'Services' },
-    { path: '/testimonials', label: 'Testimonials' },
     { path: '/contact', label: 'Contact' },
+    {path: '/gallery', label: "Gallery"},
+
   ];
 
   return (
@@ -79,5 +79,4 @@ function Header() {
     </header>
   )
 }
-
-export default Header
+export default Header;
