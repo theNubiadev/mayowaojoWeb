@@ -1,5 +1,5 @@
 import React from "react";
-import {Mail, Phone, MapPin, Linkedin, Twitter} from "lucide-react";
+import {Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram} from "lucide-react";
 function Footer() {
   return (
  <footer className="bg-gray-900 text-white">
@@ -12,15 +12,19 @@ function Footer() {
                 <span className="text-xl font-bold">Mayowa Ojo</span>
               </div>
             </div>
-            <p className="text-gray-300 leading-relaxed max-w-md">
-              {/* Helping individuals and businesses in Lagos manage their finances with integrity, precision, and over 10 years of professional experience. */}
-            </p>
+          
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
+              <a href="https://www.linkedln.com/mayowa-ojo-865b29bb" target="_blank" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
+               <a href="https://www.instagram.com/mayowa_ojo1?utm_source=q&ish=aGZ2aW5IM3F0aDJ6"  target="_blank" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
                 <Twitter className="h-5 w-5" />
+              </a>
+                 <a href="https://www.facebook.com/share/1Aa3dyrj8U/" target="_blank" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
+                <Facebook className="h-5 w-5" />
               </a>
             </div>
           </div>
