@@ -122,7 +122,6 @@ function Professional() {
 
                     <div className="lg:col-span-2">
                       <p className="text-slate-600 leading-relaxed mb-6">{milestone.description}</p>
-
                       <div>
                         <h4 className="font-semibold text-slate-900 mb-3">Key Contributions:</h4>
                         <ul className="space-y-2">
@@ -214,4 +213,4 @@ function Professional() {
   )
 }
 
-export default Profesional
+export default Professional

@@ -11,7 +11,7 @@ import Hero from "../assets/hero.jpg";
 
 function About() {
   return (
-    <div className="min-h-screen ">
+    <div className="min-h-screen">
       {/* Hero Section */}
       <section className="py-24 px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
         <div className="max-w-6xl mx-auto">
@@ -53,44 +53,25 @@ function About() {
 
       {/* Biography Section */}
       <section className="py-24 px-6 lg:px-8 bg-white">
-          <div className="space-y-6">
-            <h2 className="text-3xl font-serif font-bold text-slate-900">Professional Background</h2>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Mayowa Ojo is a dynamic finance professional, entrepreneur, and public affairs advocate with deep roots in
-              Nigeria and a growing influence on the global stage. Born in Ibadan, Oyo State, Nigeria, he built a solid
-              academic foundation—earning diplomas in Accountancy from The Polytechnic Ibadan and a bachelor's degree in
-              accounting from Lagos State University.
-            </p>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              A member of leading professional bodies in both Nigeria and the United Kingdom, Mayowa is committed to the
-              highest standards of financial expertise and lifelong learning. His career spans multiple continents,
-              bringing international perspective to every role he undertakes.
-            </p>
-            <p className="text-lg text-slate-600 leading-relaxed">
-              Currently serving as Finance Controller for HEL Limited, a laboratory-equipment manufacturer, Mayowa
-              oversees the preparation and analysis of financial reports for the EMEA and US regions, ensuring accuracy,
-              transparency, and alignment with corporate objectives.
-            </p>
-          </div>
+        <div className="space-y-6">
+          <h2 className="text-3xl font-serif font-bold text-slate-900">Professional Background</h2>
+          <p className="text-lg text-slate-600 leading-relaxed">
+            Mayowa Ojo is a dynamic finance professional, entrepreneur, and public affairs advocate with deep roots in
+            Nigeria and a growing influence on the global stage. Born in Ibadan, Oyo State, Nigeria, he built a solid
+            academic foundation—earning diplomas in Accountancy from The Polytechnic Ibadan and a bachelor's degree in
+            accounting from Lagos State University.
+          </p>
+          <p className="text-lg text-slate-600 leading-relaxed">
+            A member of leading professional bodies in both Nigeria and the United Kingdom, Mayowa is committed to the
+            highest standards of financial expertise and lifelong learning. His career spans multiple continents,
+            bringing international perspective to every role he undertakes.
+          </p>
+          <p className="text-lg text-slate-600 leading-relaxed">
+            Currently serving as Finance Controller for HEL Limited, a laboratory-equipment manufacturer, Mayowa
+            oversees the preparation and analysis of financial reports for the EMEA and US regions, ensuring accuracy,
+            transparency, and alignment with corporate objectives.
+          </p>
         </div>
-
-        {/* <div className="max-w-4xl mx-auto">
-          <div className="prose prose-xl max-w-none">
-            <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Mayowa Ojo is a dynamic finance professional, entrepreneur, and
-              public affairs advocate with deep roots in Nigeria and a growing
-              influence on the global stage. Born in Ibadan, Oyo State, Nigeria,
-              he built a solid academic foundation—earning Diplomas in
-              Accountancy from The Polytechnic Ibadan and a bachelor’s degree in
-              accounting from Lagos State University.
-            </p>
-            <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              A member of leading professional bodies in both Nigeria and the
-              United Kingdom, Mayowa is committed to the highest standards of
-              financial expertise and lifelong learning.
-            </p>
-          </div>
-        </div> */}
       </section>
 
       {/* Professional Journey */}
@@ -121,7 +102,9 @@ function About() {
         </div>
       </section>
 
-        <div className="bg-gray-50 rounded-lg p-8 lg:p-12">
+      {/* Key Milestones */}
+      <section className="py-24 px-6 lg:px-8 bg-gray-50">
+        <div className="bg-white rounded-lg p-8 lg:p-12">
           <h2 className="text-3xl font-serif font-bold text-slate-900 text-center mb-12">Key Milestones</h2>
 
           <div className="space-y-8">
@@ -171,8 +154,9 @@ function About() {
               </div>
             </div>
           </div>
+
         </div>
-      </div>
+      </section>
 
       {/* Political Advocacy */}
       <section className="py-24 px-6 lg:px-8 bg-white">
@@ -203,6 +187,7 @@ function About() {
         </div>
       </section>
 
+
       {/* Credentials Section */}
       <section className="py-24 px-6 lg:px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto">
@@ -226,15 +211,11 @@ function About() {
               </h3>
               <div className="space-y-3">
                 <div>
-                  <p className="font-semibold text-gray-900">
-                    Bachelor in Accounting
-                  </p>
+                  <p className="font-semibold text-gray-900">Bachelor in Accounting</p>
                   <p className="text-gray-600">Lagos State University</p>
                 </div>
                 <div>
-                  <p className="font-semibold text-gray-900">
-                    Diploma in Accountancy
-                  </p>
+                  <p className="font-semibold text-gray-900">Diploma in Accountancy</p>
                   <p className="text-gray-600">The Polytechnic Ibadan</p>
                 </div>
               </div>
@@ -251,29 +232,19 @@ function About() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">
-                    Institute of Chartered Accountants of Nigeria (ICAN)
-                  </span>
+                  <span className="text-gray-700">ICAN</span>
                 </div>
                 <div className="flex items-center">
                   <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">
-                    (ACCA)
-                  </span>
+                  <span className="text-gray-700">ACCA</span>
                 </div>
-                {/* <div className="flex items-center">
-                  <CheckCircle className="h-5 w-5 text-green-600 mr-3" />
-                  <span className="text-gray-700">
-                    Chartered Institute of Taxation of Nigeria (CITN)
-                  </span>
-                </div> */}
               </div>
             </div>
           </div>
         </div>
       </section>
+
     </div>
   );
 }
-
 export default About;
