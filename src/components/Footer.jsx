@@ -20,9 +20,6 @@ function Footer() {
               <a href="https://www.instagram.com/mayowa_ojo1?utm_source=qr&igsh=aGZ2aW5lM3F0aDJ6" target="_blank" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
                 <Instagram className="h-5 w-5" />
               </a>
-              {/* <a href="" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
-                <Twitter className="h-5 w-5" />
-              </a> */}
               <a href="https://www.facebook.com/share/1Aa3dyrj8U/" target="_blank" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gray-700 transition-colors duration-200">
                 <Facebook className="h-5 w-5" />
               </a>
@@ -39,7 +36,7 @@ function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gray-400" />
-                <span className="text-gray-300">+234 (80) 5214 8610</span>
+                <span className="text-gray-300">+44 7519 531573</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-gray-400" />
@@ -47,17 +44,6 @@ function Footer() {
               </div>
             </div>
           </div>
-
-          {/* Services */}
-          {/* <div className="space-y-6">
-            <h3 className="text-lg font-semibold">Services</h3>
-            <div className="space-y-3">
-              <a href="/services" className="block text-gray-300 hover:text-white transition-colors duration-200">Tax Preparation</a>
-              <a href="/services" className="block text-gray-300 hover:text-white transition-colors duration-200">Bookkeeping</a>
-              <a href="/services" className="block text-gray-300 hover:text-white transition-colors duration-200">Payroll Services</a>
-              <a href="/services" className="block text-gray-300 hover:text-white transition-colors duration-200">Financial Planning</a>
-            </div>
-          </div> */}
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800">
