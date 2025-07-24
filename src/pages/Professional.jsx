@@ -63,11 +63,11 @@ function Professional() {
   ]
 
   return (
-    <div className="bg-white py-20">
+    <div className="bg-white py-20 pt-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-serif font-bold text-slate-900 mb-6">Professional Journey</h1>
+          <h1 className="text-4xl lg:text-5xl  font-bold text-slate-900 mb-6">Professional Journey</h1>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
             A career built on excellence, strategic thinking, and meaningful impact from Lagos, Nigeria to the United
             Kingdom
@@ -103,7 +103,7 @@ function Professional() {
 
         {/* Career Timeline */}
         <div className="mb-20">
-          <h2 className="text-3xl font-serif font-bold text-slate-900 text-center mb-12">Career Progression</h2>
+          <h2 className="text-3xl  font-bold text-slate-900 text-center mb-12">Career Progression</h2>
 
           <div className="space-y-12">
             {milestones.map((milestone, index) => (
@@ -112,7 +112,7 @@ function Professional() {
                   <div className="grid lg:grid-cols-3 gap-8">
                     <div>
                       <div className="text-sm font-medium text-amber-600 mb-2">{milestone.period}</div>
-                      <h3 className="text-xl font-serif font-bold text-slate-900 mb-2">{milestone.role}</h3>
+                      <h3 className="text-xl  font-bold text-slate-900 mb-2">{milestone.role}</h3>
                       <p className="text-slate-700 font-medium mb-1">{milestone.company}</p>
                       <p className="text-slate-600 text-sm flex items-center">
                         <Globe size={14} className="mr-1" />
@@ -143,7 +143,7 @@ function Professional() {
 
         {/* Current Focus */}
         <div className="bg-slate-900 rounded-lg p-8 lg:p-12 text-white mb-20">
-          <h2 className="text-3xl font-serif font-bold text-center mb-8">Current Focus Areas</h2>
+          <h2 className="text-3xl  font-bold text-center mb-8">Current Focus Areas</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-xl font-semibold mb-4">Financial Leadership</h3>
@@ -164,7 +164,7 @@ function Professional() {
 
         {/* Core Competencies */}
         <div className="bg-gray-50 rounded-lg p-8 lg:p-12">
-          <h2 className="text-3xl font-serif font-bold text-slate-900 text-center mb-12">Core Competencies</h2>
+          <h2 className="text-3xl  font-bold text-slate-900 text-center mb-12">Core Competencies</h2>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="text-center">

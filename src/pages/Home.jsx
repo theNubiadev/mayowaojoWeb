@@ -48,7 +48,7 @@ function Home() {
        <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-serif font-bold text-slate-900 mb-4">Professional Highlights</h2>
+            <h2 className="text-3xl lg:text-4xl  font-bold text-slate-900 mb-4">Professional Highlights</h2>
             <p className="text-lg text-slate-600 max-w-3xl mx-auto">
               A proven track record of excellence across finance, entrepreneurship, and social impact
             </p>
@@ -59,7 +59,7 @@ function Home() {
               <div className="bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Briefcase className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-serif font-bold text-slate-900 mb-4">Finance Controller</h3>
+              <h3 className="text-xl  font-bold text-slate-900 mb-4">Finance Controller</h3>
               <p className="text-slate-600">
                 Currently serving as Finance Controller for HEL Limited, overseeing financial operations for EMEA and US
                 regions with focus on accuracy and corporate alignment.
@@ -70,7 +70,7 @@ function Home() {
               <div className="bg-amber-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-serif font-bold text-slate-900 mb-4">Board Member & Strategic Thinker</h3>
+              <h3 className="text-xl  font-bold text-slate-900 mb-4">Board Member & Strategic Thinker</h3>
               <p className="text-slate-600">
                 Sits on the boards of three reputable companies across UK and Nigeria, guiding governance, risk
                 management, and sustainable growth strategies.
@@ -81,7 +81,7 @@ function Home() {
               <div className="bg-slate-900 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Award className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-serif font-bold text-slate-900 mb-4">Political Advocate</h3>
+              <h3 className="text-xl  font-bold text-slate-900 mb-4">Political Advocate</h3>
               <p className="text-slate-600">
                 Proud member of UK Labour Party, contested Briars Ward seat in Hatfield (January 2025) and toured House
                 of Parliament, championing equity and accountability.
