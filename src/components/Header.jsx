@@ -12,9 +12,10 @@ function Header() {
     const navItems = [
     { path: '/', label: 'Home' },
     { path: '/about', label: 'About' },
-    {path: '/gallery', label: 'Gallery'},
+    { path: '/professional-journey', label: 'Professional Journey' },
+    { path: '/gallery', label: 'Gallery' },
     { path: '/contact', label: 'Contact' },
-    {path: '/professional-journey', label: 'Professional Journey'},
+    
   ];
 
   return (
