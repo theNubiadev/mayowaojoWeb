@@ -6,19 +6,20 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from './pages/Contact';
 import Gallery from "./pages/Gallery";
-
+import Professional from "./pages/Professional"
 
 function App() {
   return (
     <Router>
       <div className="min-h-screen bg-white">
         <Header />
-        <main>o
+        <main>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/gallery" element={<Gallery />}/>
+            <Route path="/professional-journey" element={<Professional />}/>
           </Routes>
         </main>
         <Footer />

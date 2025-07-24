@@ -53,7 +53,28 @@ function About() {
 
       {/* Biography Section */}
       <section className="py-24 px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
+          <div className="space-y-6">
+            <h2 className="text-3xl font-serif font-bold text-slate-900">Professional Background</h2>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Mayowa Ojo is a dynamic finance professional, entrepreneur, and public affairs advocate with deep roots in
+              Nigeria and a growing influence on the global stage. Born in Ibadan, Oyo State, Nigeria, he built a solid
+              academic foundation—earning diplomas in Accountancy from The Polytechnic Ibadan and a bachelor's degree in
+              accounting from Lagos State University.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              A member of leading professional bodies in both Nigeria and the United Kingdom, Mayowa is committed to the
+              highest standards of financial expertise and lifelong learning. His career spans multiple continents,
+              bringing international perspective to every role he undertakes.
+            </p>
+            <p className="text-lg text-slate-600 leading-relaxed">
+              Currently serving as Finance Controller for HEL Limited, a laboratory-equipment manufacturer, Mayowa
+              oversees the preparation and analysis of financial reports for the EMEA and US regions, ensuring accuracy,
+              transparency, and alignment with corporate objectives.
+            </p>
+          </div>
+        </div>
+
+        {/* <div className="max-w-4xl mx-auto">
           <div className="prose prose-xl max-w-none">
             <p className="text-xl text-gray-700 leading-relaxed mb-8">
               Mayowa Ojo is a dynamic finance professional, entrepreneur, and
@@ -69,7 +90,7 @@ function About() {
               financial expertise and lifelong learning.
             </p>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* Professional Journey */}
@@ -100,89 +121,58 @@ function About() {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      {/* <section className="bg-gray-50 rounded-lg p-8 lg:p-12">
-        <h2 className="text-3xl font-bold text-navy-900 text-center mb-12">
-          Professional Timeline
-        </h2>
-        <div className="space-y-12 max-w-3xl mx-auto">
-          <div className="flex items-start">
-            <div className="bg-navy-900 w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0" />
-            <div>
-              <div className="flex items-center text-sm text-gray-500 mb-1">
-                <Calendar className="w-4 h-4 text-navy-600 mr-2" />
-                <span>2023 – Present</span>
-              </div>
-              <h3 className="text-xl font-semibold text-gray-800">
-                Finance Controller, HEL Limited
-              </h3>
-              <p className="text-gray-600">
-                Leading financial reporting and strategic planning for EMEA & US regions.
-              </p>
-            </div>
-          </div>
+        <div className="bg-gray-50 rounded-lg p-8 lg:p-12">
+          <h2 className="text-3xl font-serif font-bold text-slate-900 text-center mb-12">Key Milestones</h2>
 
-          <div className="flex items-start">
-            <div className="bg-navy-900 w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0" />
-            <div>
-              <div className="flex items-center text-sm text-gray-500 mb-1">
-                <Calendar className="w-4 h-4 text-navy-600 mr-2" />
-                <span>2010 – 2022</span>
+          <div className="space-y-8">
+            <div className="flex items-start">
+              <div className="bg-slate-900 w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0"></div>
+              <div>
+                <div className="flex items-center mb-2">
+                  <Calendar className="w-4 h-4 text-slate-600 mr-2" />
+                  <span className="text-sm font-medium text-slate-600">Present</span>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Finance Controller - HEL Limited</h3>
+                <p className="text-slate-600">
+                  Overseeing financial operations for EMEA and US regions, ensuring accuracy and corporate alignment.
+                </p>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800">
-                Senior Finance Roles, Nigeria
-              </h3>
-              <p className="text-gray-600">
-                Gained experience across BATN, Landmark, and UPDC PLC.
-              </p>
+            </div>
+
+            <div className="flex items-start">
+              <div className="bg-amber-600 w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0"></div>
+              <div>
+                <div className="flex items-center mb-2">
+                  <Calendar className="w-4 h-4 text-slate-600 mr-2" />
+                  <span className="text-sm font-medium text-slate-600">2025</span>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">Political Advocacy & Parliamentary Tour</h3>
+                <p className="text-slate-600">
+                  Contested Briars Ward seat in Hatfield for UK Labour Party and was honored with invitation to tour
+                  House of Parliament.
+                </p>
+              </div>
+            </div>
+
+            <div className="flex items-start">
+              <div className="bg-slate-900 w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0"></div>
+              <div>
+                <div className="flex items-center mb-2">
+                  <Calendar className="w-4 h-4 text-slate-600 mr-2" />
+                  <span className="text-sm font-medium text-slate-600">Career Journey</span>
+                </div>
+                <h3 className="text-lg font-semibold text-slate-900 mb-2">
+                  Professional Development Across Continents
+                </h3>
+                <p className="text-slate-600">
+                  Career progression from The Kitchen (Lagos) to BATN, Landmark, UPDC PLC, gaining broad experience in
+                  finance, compliance, and strategic planning.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section> */}
-
-      <section className="bg-white rounded-lg p-8 lg:p-12">
-        <h2 className="text-3xl font-bold text-black  text-center mb-12">Professional Timeline</h2>
-
-        <div className="space-y-8">
-
-          <div className="flex items-center rounded-2xl p-8 shadow-sm ">
-            <div className="w-4 h-4 rounded-full mt-2 mr-6 flex-shrink-0"></div>
-            <div>
-
-              <div className="flex items-center mb-2">
-                <Calendar className="w-4 h-4 text-blue-500 mr-2" />
-                <span className="text-sm font-medium ">
-                  Present
-                </span>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">
-                Finance Controller
-              </h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quasi iusto, voluptatem, aperiam, quia quisquam voluptatum vero perspiciatis neque porro adipisci impedit quae praesentium pariatur! Obcaecati neque veniam nisi dolor.</p>
-            </div>
-          </div>
-
-          <div className="flex items-center rounded-2xl p-8  ">
-            <div className="w-4 h-4 rounded-full mt-2 mr-6 flex-shtink-0"></div>
-            <div>
-              <div className="flex items-center mb-2">
-                <Calendar className="w-4 h-4 text-blue-500 mr-2" />
-                <span className="text-sm font-medium ">
-                  Present
-                </span>
-              </div>
-              <h3 className="text-lg font-semibold mb-2">
-                Finance Controller
-              </h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam quasi iusto, voluptatem, aperiam, quia quisquam voluptatum vero perspiciatis neque porro adipisci impedit quae praesentium pariatur! Obcaecati neque veniam nisi dolor.</p>
-
-            </div>
-          </div>
-
-
-
-        </div>
-      </section>
+      </div>
 
       {/* Political Advocacy */}
       <section className="py-24 px-6 lg:px-8 bg-white">

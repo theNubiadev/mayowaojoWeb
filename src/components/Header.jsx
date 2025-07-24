@@ -14,6 +14,7 @@ function Header() {
     { path: '/about', label: 'About' },
     {path: '/gallery', label: 'Gallery'},
     { path: '/contact', label: 'Contact' },
+    {path: '/professional-journey', label: 'Professional Journey'},
   ];
 
   return (
