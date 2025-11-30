@@ -11,7 +11,7 @@ function Gallery() {
     {
       id: 1,
       title: "Professional Headshot",
-      description: "Mayowa Ojo, CPA.",
+      description: "Mayowa Ojo",
       category: "Professional",
       image: Headshot,
       icon: Users
