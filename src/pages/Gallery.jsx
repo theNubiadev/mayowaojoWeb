@@ -40,38 +40,38 @@ function Gallery() {
       image: Campaign2,
       icon: BookOpen
     },
-    {
-      id: 5,
-      title: "Professional Achievement",
-      description: "Celebrating professional milestones and certifications that demonstrate our commitment to excellence.",
-      category: "Achievement",
-      image: "https://images.pexels.com/photos/7688465/pexels-photo-7688465.jpeg?auto=compress&cs=tinysrgb&w=800",
-      icon: Award
-    },
-    {
-      id: 6,
-      title: "Team Collaboration",
-      description: "Working collaboratively to provide comprehensive financial solutions for our diverse client base.",
-      category: "Professional",
-      image: "https://images.pexels.com/photos/7688468/pexels-photo-7688468.jpeg?auto=compress&cs=tinysrgb&w=800",
-      icon: Users
-    },
-    {
-      id: 7,
-      title: "Financial Analysis",
-      description: "Conducting detailed financial analysis and reporting to help businesses make informed decisions.",
-      category: "Services",
-      image: "https://images.pexels.com/photos/7688319/pexels-photo-7688319.jpeg?auto=compress&cs=tinysrgb&w=800",
-      icon: TrendingUp
-    },
-    {
-      id: 8,
-      title: "Client Meeting Room",
-      description: "Our dedicated meeting space where we conduct confidential client consultations and strategic planning sessions.",
-      category: "Office",
-      image: "https://images.pexels.com/photos/7688347/pexels-photo-7688347.jpeg?auto=compress&cs=tinysrgb&w=800",
-      icon: Building
-    }
+    // {
+    //   id: 5,
+    //   title: "Professional Achievement",
+    //   description: "Celebrating professional milestones and certifications that demonstrate our commitment to excellence.",
+    //   category: "Achievement",
+    //   image: "https://images.pexels.com/photos/7688465/pexels-photo-7688465.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   icon: Award
+    // },
+    // {
+    //   id: 6,
+    //   title: "Team Collaboration",
+    //   description: "Working collaboratively to provide comprehensive financial solutions for our diverse client base.",
+    //   category: "Professional",
+    //   image: "https://images.pexels.com/photos/7688468/pexels-photo-7688468.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   icon: Users
+    // },
+    // {
+    //   id: 7,
+    //   title: "Financial Analysis",
+    //   description: "Conducting detailed financial analysis and reporting to help businesses make informed decisions.",
+    //   category: "Services",
+    //   image: "https://images.pexels.com/photos/7688319/pexels-photo-7688319.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   icon: TrendingUp
+    // },
+    // {
+    //   id: 8,
+    //   title: "Client Meeting Room",
+    //   description: "Our dedicated meeting space where we conduct confidential client consultations and strategic planning sessions.",
+    //   category: "Office",
+    //   image: "https://images.pexels.com/photos/7688347/pexels-photo-7688347.jpeg?auto=compress&cs=tinysrgb&w=800",
+    //   icon: Building
+    // }
   ];
     const categories = ["All", "Professional", "Office", "Services", "Achievement"];
   const [activeCategory, setActiveCategory] = useState("All");

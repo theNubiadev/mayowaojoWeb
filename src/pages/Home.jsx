@@ -1,16 +1,17 @@
 import React from 'react'
 import { Award, TrendingUp, Users, CheckCircle, Shield , Briefcase} from 'lucide-react';
-import Hero from "../assets/hero1.jpg"; // Adjust the path as necessary
+import Hero from "../assets/hero1.jpg"; 
+
 function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-blue-50 via-white to-gray-50">
+      <section className="pt-32 pb-20 px-6 lg:px-8 bg-gradient-to-br from-amber-50 via-white to-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
             <div className="text-center lg:text-left">
-              <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
+              <div className="inline-flex items-center px-4 py-2 bg-amber-50  text-amber-600 rounded-full text-sm font-medium mb-8">
                 <Award className="h-4 w-4 mr-2" />
                 Finance | Entrepreneur | Politics
               </div>
