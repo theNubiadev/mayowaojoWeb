@@ -1,32 +1,3 @@
-# name: Deploy to HostAfrica for mayowaojo.com via FTP
-
-# on:
-#   push:
-#     branches: [ main ]
-
-# jobs:
-#   deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-
-#       - name: Install and Build
-#         run: |
-#           npm install
-#           npm run build
-
-#       - name: FTP Deploy
-#         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-#         with:
-#           server: ${{ secrets.FTP_SERVER }}
-#           username: ${{ secrets.FTP_USERNAME }}
-#           password: ${{ secrets.FTP_PASSWORD }}
-#           port: ${{ secrets.FTP_PORT }}
-#           local-dir: ./dist/
-#           server-dir: /public_html/
-
-
-
 name: Deploy to Truehost for mayowaojo.com via FTP
 
 on:
@@ -36,7 +7,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
 
@@ -51,7 +21,6 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 1624
-          protocol: ftps
+          port: ${{ secrets.FTP_PORT }}
           local-dir: ./dist/
           server-dir: /public_html/
