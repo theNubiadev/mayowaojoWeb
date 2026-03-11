@@ -24,8 +24,8 @@
 #           port: ${{ secrets.FTP_PORT }}
 #           local-dir: ./dist/
 #           server-dir: /public_html/
-
-name: Deploy to Truehost via SFTP
+# 
+name: Deploy to Truehost for mayowaojo.com  via SFTP
 
 on:
   push:
