@@ -26,7 +26,7 @@ function Contact() {
               Call Now
             </a>
             <a
-              href="mailto:john.doe@email.com"
+              href="mailto:mayowaojo@akountinprofessionals.co.uk"
               className="inline-flex items-center px-8 py-4 bg-white text-gray-700 font-semibold rounded-xl border border-gray-200 hover:bg-gray-50 transition-all duration-200"
             >
               <Mail className="h-5 w-5 mr-2" />
@@ -50,7 +50,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Email</h3>
-                      <p className="text-gray-600">info@mayowa.com</p>
+                      <p className="text-gray-600">mayowaojo@akountinprofessionals.co.uk </p>
                       <p className="text-sm text-gray-500">Response within 24 hours</p>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ function Contact() {
                     </div>
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-1">Phone</h3>
-                      <p className="text-gray-600">+234 (0) 123 456 7890</p>
+                      <p className="text-gray-600">+44 7519 531573</p>
                       {/* <p className="text-sm text-gray-500">Mon-Fri, 9AM-6PM</p> */}
                     </div>
                   </div>
